@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Testing Test Suite"  thread-count="3" parallel="methods">
+	<test name="Parameters Testing">
+		<parameter name="BrowserName" value="chrome"/>
+		<parameter name="username" value="deepak"/>
+		<parameter name="password" value="deepak123"/>
+		<parameter name="username1" value="deepakchandra"/>
+		<parameter name="password1" value="123456789"/>
+		
+		
+		<classes>
+			<class name="com.testngpratice.ParameterTesting" />
+		</classes>
+	</test>
+</suite>

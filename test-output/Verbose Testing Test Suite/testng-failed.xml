@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Verbose Testing Test Suite]">
+  <test name="Verbose test(failed)">
+    <classes>
+      <class name="com.testngpratice.VerbosePratice">
+        <methods>
+          <include name="test4"/>
+          <include name="Setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testngpratice.VerbosePratice -->
+    </classes>
+  </test> <!-- Verbose test(failed) -->
+</suite> <!-- Failed suite [Verbose Testing Test Suite] -->

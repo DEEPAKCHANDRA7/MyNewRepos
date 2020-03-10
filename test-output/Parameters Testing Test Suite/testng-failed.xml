@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Parameters Testing Test Suite]" parallel="methods">
+  <parameter name="BrowserName" value="chrome"/>
+  <parameter name="password" value="deepak123"/>
+  <parameter name="password1" value="DeadSilence@2018"/>
+  <parameter name="username1" value="7702447639"/>
+  <parameter name="username" value="deepak"/>
+  <test name="Parameters Testing(failed)" parallel="methods">
+    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="password" value="deepak123"/>
+    <parameter name="password1" value="DeadSilence@2018"/>
+    <parameter name="username1" value="7702447639"/>
+    <parameter name="username" value="deepak"/>
+    <classes>
+      <class name="com.testngpratice.ParameterTesting">
+        <methods>
+          <include name="LoginasDeepakAdmin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testngpratice.ParameterTesting -->
+    </classes>
+  </test> <!-- Parameters Testing(failed) -->
+</suite> <!-- Failed suite [Parameters Testing Test Suite] -->
